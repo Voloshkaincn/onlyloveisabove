@@ -1,0 +1,130 @@
+// /* Bootstrap */
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1170px,
+//   xxl: 1570px
+// );
+// $grid-breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1366px,
+//   xxl: 1600px
+// );
+// $spacer: 1rem;
+// $spacers: ();
+// $spacers: map-merge(
+//   (
+//     0: 0,
+//     1: ($spacer * .25),
+//     2: ($spacer * .5),
+//     3: $spacer,
+//     4: ($spacer * 1.5),
+//     5: ($spacer * 3),
+//     6: ($spacer * 5),
+
+//   ),
+//   $spacers
+// );
+
+// @import "../libs/bootstrap-4.3.1/scss/functions";
+// @import "../libs/bootstrap-4.3.1/scss/variables";
+
+// @import "../libs/bootstrap-4.3.1/scss/mixins/breakpoints";
+
+// // @import "../libs/bootstrap-4.3.1/scss/mixins/grid-framework";
+// // Framework grid generation
+// //
+// // Used only by Bootstrap to generate the correct number of grid classes given
+// // any value of `$grid-columns`.
+
+// @mixin make-grid-columns($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $grid-breakpoints) {
+//   // Common properties for all breakpoints
+//   %grid-column {
+//     position: relative;
+//     width: 100%;
+//     padding-right: $gutter / 2;
+//     padding-left: $gutter / 2;
+//   }
+
+//   @each $breakpoint in map-keys($breakpoints) {
+//     $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+//     // Allow columns to stretch full width below their breakpoints
+//     @for $i from 1 through $columns {
+//       .col#{$infix}-#{$i} {
+//         @extend %grid-column;
+//       }
+//     }
+//     .col#{$infix},
+//     .col#{$infix}-auto {
+//       @extend %grid-column;
+//     }
+
+//     @include media-breakpoint-up($breakpoint, $breakpoints) {
+//       // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+//       .col#{$infix} {
+//         flex-basis: 0;
+//         flex-grow: 1;
+//         max-width: 100%;
+//       }
+//       .col#{$infix}-auto {
+//         flex: 0 0 auto;
+//         width: auto;
+//         max-width: 100%; // Reset earlier grid tiers
+//       }
+
+//       @for $i from 1 through $columns {
+//         .col#{$infix}-#{$i} {
+//           @include make-col($i, $columns);
+//         }
+//       }
+
+//       // .order#{$infix}-first { order: -1; }
+
+//       // .order#{$infix}-last { order: $columns + 1; }
+
+//       // @for $i from 0 through $columns {
+//       //   .order#{$infix}-#{$i} { order: $i; }
+//       // }
+
+//       // `$columns - 1` because offsetting by the width of an entire row isn't possible
+//       // @for $i from 0 through ($columns - 1) {
+//       //   @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-0
+//       //     .offset#{$infix}-#{$i} {
+//       //       @include make-col-offset($i, $columns);
+//       //     }
+//       //   }
+//       // }
+//     }
+//   }
+// }
+
+
+// @import "../libs/bootstrap-4.3.1/scss/mixins/grid";
+
+// @import "../libs/bootstrap-4.3.1/scss/grid";
+// // @import "../libs/bootstrap-4.3.1/scss/utilities/display";
+// // @import "utilities/flex";
+// @import "../libs/bootstrap-4.3.1/scss/utilities/spacing";
+
+
+// // Responsive alignment
+
+// // @each $breakpoint in map-keys($grid-breakpoints) {
+// //   @include media-breakpoint-up($breakpoint) {
+// //     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+// //     .text#{$infix}-left   { text-align: left !important; }
+// //     .text#{$infix}-right  { text-align: right !important; }
+// //     .text#{$infix}-center { text-align: center !important; }
+// //   }
+// // } 
+
+// /* Slick slider */
+@import "lib-components/slick";
+// // @import "../libs/fancybox/dist/jquery.fancybox.min.css";
+

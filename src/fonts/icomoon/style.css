@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?omf81o');
+  src:  url('fonts/icomoon.eot?omf81o#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?omf81o') format('truetype'),
+    url('fonts/icomoon.woff?omf81o') format('woff'),
+    url('fonts/icomoon.svg?omf81o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hart:before {
+  content: "\e90e";
+}
+.icon-panorama:before {
+  content: "\e90f";
+}
+.icon-close:before {
+  content: "\e910";
+}
+.icon-logo-ola:before {
+  content: "\e90d";
+}
+.icon-facebook:before {
+  content: "\e909";
+}
+.icon-instagram:before {
+  content: "\e90a";
+}
+.icon-youtube:before {
+  content: "\e90c";
+}
+.icon-boy-broad-smile-1:before {
+  content: "\e908";
+}
+.icon-tripadvisor-1-1:before {
+  content: "\e90b";
+}
+.icon-map-pin:before {
+  content: "\e903";
+}
+.icon-calendar:before {
+  content: "\e905";
+}
+.icon-arrow-left:before {
+  content: "\e901";
+}
+.icon-arrow-right:before {
+  content: "\e902";
+}
+.icon-logo:before {
+  content: "\e900";
+}
+.icon-buffet:before {
+  content: "\e904";
+}
+.icon-champagne-glass:before {
+  content: "\e906";
+}
+.icon-coffee-cup:before {
+  content: "\e907";
+}
+.icon-day:before {
+  content: "\e91f";
+}
+.icon-email:before {
+  content: "\e920";
+}
+.icon-gift:before {
+  content: "\e921";
+}
+.icon-ice-cream:before {
+  content: "\e922";
+}
+.icon-information:before {
+  content: "\e923";
+}
+.icon-lemonade:before {
+  content: "\e924";
+}
+.icon-man:before {
+  content: "\e925";
+}
+.icon-matryoshka:before {
+  content: "\e927";
+}
+.icon-music:before {
+  content: "\e928";
+}
+.icon-newspaper:before {
+  content: "\e929";
+}
+.icon-rent:before {
+  content: "\e92a";
+}
+.icon-rings:before {
+  content: "\e92b";
+}
+.icon-smartphone:before {
+  content: "\e92c";
+}
+.icon-suitcase:before {
+  content: "\e92d";
+}
+.icon-tapas:before {
+  content: "\e92e";
+}
+.icon-wedding-couple:before {
+  content: "\e92f";
+}

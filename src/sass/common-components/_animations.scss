@@ -1,0 +1,35 @@
+@keyframes showOpasity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes sliderContentShow {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes slide{  
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+   transform: translateY(0%);
+  }
+}
+@keyframes hidden{  
+  0% {
+   z-index: 2;
+  }
+   100% {
+   z-index: 2;
+  }
+}
